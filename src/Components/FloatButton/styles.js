@@ -32,5 +32,5 @@ export const ButtonText = styled.Text`
 export const Offset = styled.View`
   width: 100%;
   height: 60px;
-  background: #FFF
+  background: ${patterns.cl.second};
 `

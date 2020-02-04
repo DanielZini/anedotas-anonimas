@@ -4,8 +4,10 @@ import patterns from '../../patterns';
 export const Box = styled.View`
   width: 100%;
   margin-bottom: 20px;
-  background: ${patterns.cl.second};
-  elevation: 3;
+  background: #FFF;
+  border-radius: 4px;
+  /* background: ${patterns.cl.second}; */
+  elevation: 5;
 `
 export const Header = styled.View`
   padding: 5px 25px ;

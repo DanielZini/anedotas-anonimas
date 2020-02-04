@@ -13,4 +13,5 @@ export const InputText = styled.TextInput`
     text-align-vertical: top;
     padding: 15px;
     margin-bottom: 20px;
+    background: #FFFFFF;
 `

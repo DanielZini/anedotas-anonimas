@@ -4,7 +4,7 @@ import patterns from '../../patterns';
 export const Container = styled.ScrollView`
   width: 100%;
   height: 100%;
-  background: #FFFFFF;
+  background: ${patterns.cl.second};
 `
 export const Content = styled.View`
   width: 100%;

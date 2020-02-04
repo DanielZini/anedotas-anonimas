@@ -32,7 +32,7 @@ export default NewPost = props => {
         console.log(err);
       }
     } else {
-      console.log('aqui');
+      Alert.alert('Parado ai!', 'O campo de anedotas esta vazio.')
     }
 
   }
@@ -43,7 +43,6 @@ export default NewPost = props => {
 
         <Cm.Label>Diga algo engraçado... ou não...</Cm.Label>
         <Textarea
-          // autoFocus={true}
           multiline={true}
           numberOfLines={15}
           placeholder="Insira aqui sua Anedota"

@@ -4,6 +4,7 @@ import patterns from '../../../patterns';
 export const Button = styled.View`
   width: 100%;
   background: ${patterns.cl.primary};
+  border-radius: 4px;
 `
 export const ToucheArea = styled.TouchableOpacity`
   width: 100%;
